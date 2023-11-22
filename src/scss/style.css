@@ -1,0 +1,76 @@
+.btn {
+  margin: 2rem;
+  border: 5px solid transparent;
+  border-radius: 30px;
+  padding: 12px 5px;
+  width: 150px;
+  transition: all 0.1s ease-in-out;
+  font-size: 20px;
+  font-family: inherit;
+  font-weight: 700;
+}
+.btn:hover {
+  background-color: aquamarine;
+  transform: translateY(-5px);
+}
+
+.select-employee {
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  margin-bottom: 8rem;
+}
+.select-employee .select-options {
+  background-color: rgb(255, 187, 198);
+  width: 500px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 3px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.card-collection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 20rem;
+  gap: 2rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.card {
+  position: relative;
+  border: 2px solid gray;
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  gap: 1.5rem;
+  cursor: pointer;
+  transition: all 0.55s ease-in-out;
+}
+.card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0px 0px 60px rgb(1, 89, 95);
+}
+.card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1rem;
+  width: 200px;
+  height: 120px;
+}
+.card .card-body .card-title {
+  margin: 0;
+  font-size: 20px;
+}
+.card .card-body .card-info {
+  margin: 0;
+  font-size: 19px;
+}
+.card .card-body b {
+  font-size: 19px;
+  text-transform: uppercase;
+  color: red;
+}/*# sourceMappingURL=style.css.map */
