@@ -1,23 +1,6 @@
-.btn {
-  margin: 2rem;
-  border: 5px solid transparent;
-  border-radius: 30px;
-  padding: 12px 5px;
-  width: 150px;
-  transition: all 0.1s ease-in-out;
-  font-size: 20px;
-  font-family: inherit;
-  font-weight: 700;
-}
-.btn:hover {
-  background-color: aquamarine;
-  transform: translateY(-5px);
-}
-
 .select-employee {
-  position: absolute;
-  left: 30%;
-  top: 20%;
+  position: relative;
+  padding: 0rem 25rem;
   margin-bottom: 8rem;
 }
 .select-employee .select-options {
@@ -37,6 +20,12 @@
   gap: 2rem;
   align-items: center;
   justify-items: center;
+  position: relative;
+}
+
+.card-img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 .card {
@@ -48,10 +37,10 @@
   gap: 1.5rem;
   cursor: pointer;
   transition: all 0.55s ease-in-out;
+  border-radius: 10px;
 }
 .card:hover {
-  transform: translateY(-12px);
-  box-shadow: 0px 0px 60px rgb(1, 89, 95);
+  transform: translateY(-6px);
 }
 .card .card-body {
   display: flex;
@@ -60,6 +49,7 @@
   margin-bottom: 1rem;
   width: 200px;
   height: 120px;
+  padding: 1rem;
 }
 .card .card-body .card-title {
   margin: 0;
@@ -73,4 +63,35 @@
   font-size: 19px;
   text-transform: uppercase;
   color: red;
+}
+
+.standout {
+  box-shadow: 0 0 0 4px rgb(19, 133, 108);
+}
+
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 10rem;
+}
+.header h1 {
+  font-size: 50px;
+  color: rgb(21, 21, 161);
+  text-transform: capitalize;
+}
+.header h3 {
+  font-size: 30px;
+  line-height: 0.8rem;
+}
+.header h3 span {
+  color: red;
+}
+
+.footer {
+  position: relative;
+  text-align: center;
+  text-transform: capitalize;
 }/*# sourceMappingURL=style.css.map */

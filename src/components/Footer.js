@@ -1,10 +1,13 @@
 const Footer = () => {
+    const today = new Date();
     return (
-        <div>
-            <h1>
-                Footer
-            </h1>
-        </div>
+        <footer>
+            <div className="footer">
+                <h5>
+                    team member allocation app - {today.getFullYear()}
+                </h5>
+            </div>
+        </footer>
     );
 }
 export default Footer;
