@@ -1,7 +1,9 @@
 .select-employee {
   position: relative;
-  padding: 0rem 25rem;
-  margin-bottom: 8rem;
+  padding: 2rem 25rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
 }
 .select-employee .select-options {
   background-color: rgb(255, 187, 198);
@@ -75,7 +77,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 1rem 10rem;
+  padding: 3rem 10rem;
 }
 .header h1 {
   font-size: 50px;
@@ -94,4 +96,45 @@
   position: relative;
   text-align: center;
   text-transform: capitalize;
+}
+
+.groupedTeamMembers {
+  position: relative;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  gap: 2rem;
+  background-color: rgb(195, 191, 191);
+  font-size: 2rem;
+  width: 100%;
+  margin: 1rem 0;
+  list-style: none;
+  padding: 1rem;
+}
+.navbar .nav-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(10, 44, 74);
+}
+.navbar .nav-link:active {
+  color: white;
+}
+.navbar .list-item {
+  border: 2px solid transparent;
+  border-radius: 20px;
+  padding: 2px 8px;
+  transition: all 0.55s ease-in-out;
+}
+.navbar .list-item:hover {
+  box-shadow: 0 0 5px black;
+  transform: translateX(3px);
+}
+
+.not-found {
+  text-align: center;
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: rgb(196, 12, 12);
 }/*# sourceMappingURL=style.css.map */
